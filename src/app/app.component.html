@@ -1,15 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
-<h1>Language Translate Using ngx-translate!</h1>
-<p></p>
+<h1>{{ 'Title' | translate }}</h1>
+<p>{{ 'programDescription' | translate }}</p>
 <label for="">
+    {{ 'selectLanguage' | translate }}
     <select #langSelect (change)="translate.use(langSelect.value)">
-        <option *ngFor=""></option>
+        <option *ngFor="let lang of translate.getLangs()" [value]="lang">{{ lang }}</option>
     </select>
-
 </label>
-
 </div>
-
 
 <router-outlet></router-outlet>
