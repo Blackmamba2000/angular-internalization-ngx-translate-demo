@@ -1,4 +1,4 @@
-# Language Translate Part2 App
+# ngx-Translate App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
