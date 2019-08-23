@@ -1,5 +1,5 @@
 {
-    "demo": {
-        
-    }
+    "Title": "Bonjour! Bienvenue dans le programme de traduction!",
+    "programDescription": "Cette démo a été créée avec Angular version 8 et ngx-Translate.",
+    "selectLanguage": "Please Select Language -->"
 }
